@@ -1,0 +1,221 @@
+PYTHON BASICS QUIZ
+
+What is the correct option among the following to declare a number in python?
+
+Marked Answer :
+Variable = value
+
+Correct Answer :
+Variable = value
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the correct syntax to use to compute the following:
+
+Input – A = 10, B= 3, dividing the numbers should result in the output 3.
+
+Marked Answer :
+//
+
+Correct Answer :
+//
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following?
+
+X = 10
+
+X %= 3
+
+Marked Answer :
+1
+
+Correct Answer :
+1
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following if X = 10:
+
+1. X > 15 & X%2 == 2
+
+2. X > 15 or X%2 == 2
+
+Marked Answer :
+False , False
+
+Correct Answer :
+False, True
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the output of the following code:
+
+x = 10000
+
+a1 = x << 2
+a2 = x >> 2
+
+print(x)
+
+Marked Answer :
+10000
+
+Correct Answer :
+10000
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+A = “Hello”
+
+B = “World”
+
+print(A + B)
+
+Marked Answer :
+“HelloWorld”
+
+Correct Answer :
+“HelloWorld”
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+A = “Earth is the 4th planet of the solar system”
+
+A[13:16] = “3rd”
+
+Marked Answer :
+Type error
+
+Correct Answer :
+Type error
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+a = [1,2,3,4,6,7,8,9,10]
+
+print(1 is a)
+
+Marked Answer :
+False
+
+Correct Answer :
+False
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How do you print the reverse of the given sequence?
+
+A = (1,2,3,4,5)
+
+Marked Answer :
+A[::-1]
+
+Correct Answer :
+A[::-1]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following?
+
+A = {1,2,3,4,5,5,4,6,6,6,6}
+
+print(A)
+
+Marked Answer :
+{1,2,3,4,5,6}
+
+Correct Answer :
+{1,2,3,4,5,6}
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+A = 14
+
+B = 12
+
+print(‘Smaller’) if A > B else print(‘Greater’)
+
+Marked Answer :
+Smaller
+
+Correct Answer :
+Smaller
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+x = list(range(2, 10, 2))
+
+y = [2,4,6]
+
+for i in x:
+
+
+if i in y:
+
+print(i//2, end=””)
+
+else:
+
+break
+
+Marked Answer :
+0
+
+Correct Answer :
+123
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the output of the following:
+
+X = lambda x: x%2
+
+print(x(10))
+
+Marked Answer :
+0
+
+Correct Answer :
+0
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+. What is the output of the following:
+
+def update(x):
+
+
+for i in x:
+
+if i < 0:
+break
+
+else:
+
+print(i+1, end=””)
+
+a = [1,2,3,4,5]
+
+update(a)
+
+Marked Answer :
+23456
+
+Correct Answer :
+23456
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+import math as np
+
+x = 10
+
+print(np.pow(x,2))
+
+Marked Answer :
+100
+
+Correct Answer :
+100.0
+
+TOTAL MARKS : 1MARKS OBTAINED  0
