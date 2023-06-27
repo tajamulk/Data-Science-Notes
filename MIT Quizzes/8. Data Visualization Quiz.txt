@@ -1,0 +1,90 @@
+DATA VISUALIZATION QUIZ
+Which code is correct with respect to the plot?
+
+respect to the plot
+
+Marked Answer :
+plt.bar(x,y) plt.xticks(rotation=90) plt.show()
+
+Correct Answer :
+sns.barplot(x,y) plt.xticks(rotation=90) plt.show()
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+what causes the following error in scatter plot
+
+‘ValueError: ‘c’ argument has 2 elements, which is inconsistent with ‘x’ and ‘y’ with size 32.’
+
+Marked Answer :
+caused by multiple arguments in color argument
+
+Correct Answer :
+caused by multiple arguments in color argument
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the correct code if – create a scatter plot ‘mpg’ vs ‘hp’ with respect to ‘model’?
+
+
+
+Marked Answer :
+sns.scatterplot(data=a,x=’mpg’,y=’hp’,hue=’model’)
+
+Correct Answer :
+sns.scatterplot(data=a,x=’mpg’,y=’hp’,hue=’model’)
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the correct code for the plot given below?
+
+correct code
+
+Marked Answer :
+a. x=np.arange(0,10,1) y=2*x+5 y2=3*x+5 plt.plot(x,y,color=’r’) plt.plot(x,y2,color=’r’,marker=’o’,linewidth=2.0,linestyle=”:”,alpha=0.6) plt.show()
+
+Correct Answer :
+a. x=np.arange(0,10,1) y=2*x+5 y2=3*x+5 plt.plot(x,y,color=’r’) plt.plot(x,y2,color=’r’,marker=’o’,linewidth=2.0,linestyle=”:”,alpha=0.6) plt.show()
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+The functions that are needed to draw the graphs are present in which sub package?
+
+Marked Answer :
+pyplot
+
+Correct Answer :
+pyplot
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which plot can be used to plot an area chart?
+
+Marked Answer :
+stackplot
+
+Correct Answer :
+stackplot
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which is the best chart among these to represent continuous data?
+
+Marked Answer :
+Histogram
+
+Correct Answer :
+Histogram
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which chart can be used to represent proportional contribution of individual data?
+
+Marked Answer :
+Pie
+
+Correct Answer :
+Pie
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the name of the symbol that represents data value in a chart?
+
+Marked Answer :
+Marker
+
+Correct Answer :
+Marker
+
+TOTAL MARKS : 1MARKS OBTAINED  1
