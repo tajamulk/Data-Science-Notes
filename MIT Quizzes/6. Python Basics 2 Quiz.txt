@@ -1,0 +1,631 @@
+PYTHON BASICS 2 QUIZ
+
+
+What is the output of the following code?
+
+variable_A = “Python Programming”
+
+Variable_B = “is an Object Oriented Programming Language”
+
+out_variable_C = variable_A + Variable_B
+
+print(Out_variable_C)
+
+Marked Answer :
+NameError
+
+Correct Answer :
+NameError
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Observe the following code and answer the question below:
+
+sample_list = [4,5,3,1,2]
+
+sample_list[0] = sample_list[len(sample_list) – 1]
+
+sample_list[len(sample_list) – 1] = sample_list[0]
+
+What will be the output, if we print the sample_list?
+
+Marked Answer :
+[2,5,3,1,4]
+
+Correct Answer :
+[2,3,4,1,2]
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What will be the output of the following code
+
+sample_list, sample_dict = list(), dict()
+
+sample_list.append(2)
+
+sample_dict[0] = 2
+
+print(sample_list.index(2), list(sample_dict.values()))
+
+Marked Answer :
+0 [2]
+
+Correct Answer :
+0 [2]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What will be the output of the following code:
+
+sample_tuple = tuple([1,2,3,4,5])
+
+sample_tuple[0] = 3
+
+sample_tuple[2] = 4
+
+print(sample_tuple)
+
+Marked Answer :
+TypeError
+
+Correct Answer :
+TypeError
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Observe the following code, and answer the questions that follow.
+
+list_sample, tuple_sample, set_sample = [1,2,3], (4,5,6), {7,8,9}
+
+list_sample.append(list(tuple_sample))
+
+list_sample.append(list(set_sample))
+
+print(list_sample[len(list_sample) – 3])
+
+What will be the output when we print the last line of code?
+
+Marked Answer :
+3
+
+Correct Answer :
+3
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+def func(self):
+
+if self > 10:
+
+return True
+
+else:
+
+return False
+
+func(5)
+
+Marked Answer :
+False
+
+Correct Answer :
+False
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+def func(x, y, z):
+
+for i in x:
+
+for j in y:
+
+print(j, end=””)
+
+print(i, end=””)
+
+return None
+
+a = [1,2,3]
+
+b = [3]
+
+c = [5,6,7]
+
+func(a,b,c)
+
+Marked Answer :
+313233
+
+Correct Answer :
+313233
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+y = lambda a,b: a**2 + b**2 – 2*a*b
+
+y(2,4)
+
+Marked Answer :
+4
+
+Correct Answer :
+4
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+sample = [12,22,32,42,52]
+
+x = map(lambda a: a//10, sample)
+
+print(list(x))
+
+Marked Answer :
+[1,2,3,4,5]
+
+Correct Answer :
+[1,2,3,4,5]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+def func(self):
+
+if self % 2 == 0:
+
+
+return False
+
+else:
+
+return True
+
+sample= [12,24,23,3,5,2]
+
+z = filter(func, sample)
+
+print(list(z))
+
+Marked Answer :
+[23,3,5]
+
+Correct Answer :
+[23,3,5]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+for i in range(0, 10):
+
+if i <= 3:
+i = i*5
+
+elif i > 3 and i <= 6:
+i = i*4
+
+elif i > 6 and i < 9:
+i = i*3
+
+else:
+
+i = i*2
+
+print(i, end=”,”)
+
+Marked Answer :
+0,5,10,15,16,20,24,21,24,18,
+
+Correct Answer :
+0,5,10,15,16,20,24,21,24,18,
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+for i in range(0,2):
+
+for j in range(0,2):
+
+if i != j:
+
+pass
+
+else:
+
+print(list([i,j]), end=””)
+
+Marked Answer :
+[0, 0][1, 1]
+
+Correct Answer :
+[0, 0][1, 1]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Observe the following code, and answer the questions that follow.
+
+i = 10
+
+count = 0
+
+while i > 0:
+
+if i > 8:
+
+i = i – 1
+
+else:
+
+i = i – 2
+
+
+count = count + 1
+
+What will be the value of count after the end of the loop?
+
+Marked Answer :
+0
+
+Correct Answer :
+6
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Observe the following code, and answer the questions that follow.
+
+i = 10
+
+j = 0
+
+count = 0
+
+while i > 0:
+
+while j < 5:
+if j >= 2:
+
+count = count + 5
+
+else:
+
+pass
+
+
+j = j + 2
+
+if i > 6:
+
+break
+
+else:
+
+pass
+
+i = i – 2
+
+What will be the value of the count after the loop ends.
+
+Marked Answer :
+5
+
+Correct Answer :
+10
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What will be the value of count after the execution of the following code:
+
+count = 0
+
+for i in range(0, 6):
+
+while i < 6:
+if i % 2 == 0:
+
+count = count + 1
+
+else:
+
+pass
+
+i = i + 5
+
+Marked Answer :
+5
+
+Correct Answer :
+3
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Observe the following code, and answer the question that follows
+
+a = int(input())
+
+b = int(input())
+
+if a < b:
+
+print(‘Greater’)
+
+elif a == b:
+
+
+print(‘equal’)
+
+elif a > b and b > 10:
+
+
+print(‘Smaller’)
+
+elif a > 10 and b > 10:
+
+
+print(‘both’)
+
+elif a > 15 and b > 10:
+
+print(‘only One’)
+
+else:
+
+print(‘None’)
+
+If the value of a is 25, and the value of b is 20. What will be the output of the above code.
+
+Marked Answer :
+Smaller
+
+Correct Answer :
+Smaller
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code
+
+x = 10
+
+y = 5
+
+if x < y:
+if x == 0:
+
+pass
+
+elif x % 2 == 1:
+
+print(‘Not a prime number’)
+
+elif x % 5 == 0:
+
+print(‘Multiple of 5’)
+
+else:
+
+
+print(‘Not Enough Information’)
+
+else:
+
+print(‘Inconclusive’)
+
+Marked Answer :
+Inconclusive
+
+Correct Answer :
+Inconclusive
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+x = 10
+
+y = 20
+
+z = 15
+
+if x > 0:
+
+
+if y > x and y % 5==0:
+
+if z > y and z % 4==0:
+
+
+print(‘Multiple of 4 and Greater than y’)
+
+else:
+
+pass
+
+print(‘Multiple of 5 and greater than x’)
+
+else:
+
+
+pass
+
+else:
+
+pass
+
+Marked Answer :
+Multiple of 5 and greater than x
+
+Correct Answer :
+Multiple of 5 and greater than x
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+a = 12
+
+b = 11
+
+print(‘Multiple of 2’) if a%2==0 and b%2==0 else print(‘Multiple of 3’) if a%3 == 0 or b%3==0 else print(‘Not conclusive’)
+
+Marked Answer :
+Multiple of 3
+
+Correct Answer :
+Multiple of 3
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+def func(n):
+
+if n == 1:
+
+return n
+
+else:
+
+first = 1
+
+second = 1
+
+for i in range(1, n):
+
+
+temp = first + second
+
+first = second
+
+second = temp
+
+return second
+
+func(6)
+
+Marked Answer :
+8
+
+Correct Answer :
+13
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the output of the following code:
+
+def func(num, res):
+
+for i in range(0, len(num)):
+
+if num[i] + 3 == res:
+
+print(num[i], end=””)
+
+func([1,4,3,7,8,4,6,3,7], 10)
+
+Marked Answer :
+77
+
+Correct Answer :
+77
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+list1 = [4,3,5,2,2,4,2,3,5,7,9]
+
+list2 = [3,4,4,5,7,9,4,6,1,3,2]
+
+def func(num1, num2):
+
+if num1 < num2:
+return num1
+
+else:
+
+return num2
+
+list1 = sorted(list1)
+
+list2 = sorted(list2)
+
+func(list1[0], list2[0])
+
+Marked Answer :
+1
+
+Correct Answer :
+1
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+def func(sample, res):
+
+for i in sample:
+
+if i == res:
+
+print(sample.index(i), end=””)
+
+sample = [1,3,5,6,3,5,6,2,1]
+
+func(sample, 5)
+
+Marked Answer :
+22
+
+Correct Answer :
+22
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+def func(x):
+
+if x > 0:
+
+x = x ** 0.5
+
+print(round(x, 2))
+
+else:
+
+x = x ** 1.5
+
+print(round(x, 2))
+
+func(169)
+
+Marked Answer :
+13.0
+
+Correct Answer :
+13.0
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+arr = [1,1,2,3,3,4,5,4,6,5,6,7,7,8]
+
+dup = []
+
+def func(sample):
+
+
+for x in sample:
+
+if sample.count(x) > 1:
+
+
+dup.append(x)
+
+
+for i in sample:
+
+if i in dup:
+
+
+pass
+
+
+else:
+
+print(i, end=””)
+
+func(arr)
+
+Marked Answer :
+28
+
+Correct Answer :
+28
+
+TOTAL MARKS : 1MARKS OBTAINED  1
