@@ -1,0 +1,137 @@
+PYTHON FINAL QUIZ
+
+What is the unique count of the invoice numbers?
+
+Marked Answer :
+25900
+
+Correct Answer :
+25900
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many people bought “PARTY BUNTING”?
+
+Marked Answer :
+1727
+
+Correct Answer :
+1727
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many people bought “WHITE HANGING HEART T-LIGHT HOLDER”.
+
+Marked Answer :
+2369
+
+Correct Answer :
+2369
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many unique people are from the “UNITED KINGDOM”.
+
+Marked Answer :
+361878
+
+Correct Answer :
+361878
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which customer(CustomerID) has done the highest transaction in the dataset?
+
+Marked Answer :
+14646
+
+Correct Answer :
+14646
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the average amount of transactions?
+
+Marked Answer :
+17.98
+
+Correct Answer :
+17.98
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the frequently bought item in the dataset?
+
+Marked Answer :
+WHITE HANGING HEART T-LIGHT HOLDER
+
+Correct Answer :
+WHITE HANGING HEART T-LIGHT HOLDER
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Create a DataFrame with a unique description of item ,count of the item ,total amount paid for the item. Then get the least purchased item.
+
+Marked Answer :
+FILIGREE DIAMANTE CHAIN
+
+Correct Answer :
+All the options are correct
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Which algorithms are used for solving Classification problems?
+
+Marked Answer :
+Decision Tree
+
+Correct Answer :
+Decision Tree
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How to handle Outliers ,if the column is numeric?
+
+Marked Answer :
+Replace Outliers by median
+
+Correct Answer :
+Replace Outliers by median
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following is also called Normal Distribution?
+
+Marked Answer :
+Gaussian Distribution
+
+Correct Answer :
+Gaussian Distribution
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following metrics are used to evaluate classification models?
+
+Marked Answer :
+All of the above
+
+Correct Answer :
+All of the above
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which function is used for calculating Precision of the model?
+
+Marked Answer :
+confusion_matrix()
+
+Correct Answer :
+classification_report()
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Which parameters are used to know the performance of regression model?
+
+Marked Answer :
+All the options are correct
+
+Correct Answer :
+All the options are correct
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Random forest model uses:
+
+Marked Answer :
+Bagging
+
+Correct Answer :
+Bagging
+
+TOTAL MARKS : 1MARKS OBTAINED  1
