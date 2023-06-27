@@ -1,0 +1,119 @@
+MIT PANDAS QUIZ
+
+Create a DataFrame from dict of ndarrays
+
+a ={‘Runs’:[99,55,14],’Wickets’:[5,2,4]}
+
+
+How many rows and columns are there ?
+
+Marked Answer :
+3,2
+
+Correct Answer :
+3,2
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What will be the output of the following code?
+
+import pandas as pd
+
+pd.Series([3,10,32], index= [‘w’,’x’,’y’,’z’])
+
+Marked Answer :
+syntax error
+
+Correct Answer :
+syntax error
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many missing values are present in a dataset ?
+
+Marked Answer :
+18
+
+Correct Answer :
+18
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How do you replace missing values in a column?
+
+Marked Answer :
+None of the above
+
+Correct Answer :
+None of the above
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many companies are there which become unicorns in 2017?
+
+Marked Answer :
+44
+
+Correct Answer :
+44
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many companies from the United States had become unicorns in 2020?
+
+Marked Answer :
+67
+
+Correct Answer :
+67
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What are the min,max and mean valuation(In billion dollars) of the companies present in the dataset?
+
+Marked Answer :
+1, 140, 3.25
+
+Correct Answer :
+1, 140, 3.25
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many companies belong to the fintech industry?
+
+Marked Answer :
+246
+
+Correct Answer :
+246
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many companies are from China?
+
+Marked Answer :
+174
+
+Correct Answer :
+174
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which is the fourth largest company by valuation?
+
+Marked Answer :
+Stripe
+
+Correct Answer :
+Stripe
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many unicorns does India have?
+
+Marked Answer :
+70
+
+Correct Answer :
+70
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many Indian startups will become unicorns in 2022?
+
+Marked Answer :
+17
+
+Correct Answer :
+17
+
+TOTAL MARKS : 1MARKS OBTAINED  1
