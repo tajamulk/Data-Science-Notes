@@ -1,0 +1,244 @@
+MIT NUMPY QUIZ
+
+For the given NumPy array, how will you calculate the transpose of the same?
+
+x = [[11,21,13],[14,15,16],[27,18,29]]
+
+A = np.array(x)
+
+print(A)
+
+[[11 21 13]
+
+
+[14 15 16]
+
+
+[27 18 29]]
+
+Marked Answer :
+A.T
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+For the given numpy array, what will be the standard deviation for the same?
+
+x = [[11,21,13],[14,15,16],[27,18,29]]
+
+A = np.array(x)
+
+print(A)
+
+[[11 21 13]
+
+
+[14 15 16]
+
+
+[27 18 29]]
+
+Marked Answer :
+5.90
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+For the given numpy array how will you do the element wise traversal?
+
+x = np.ones(shape=(3,3), dtype=’int’)
+
+for i in _______:
+
+
+print(i)
+
+Marked Answer :
+Use x.flat or x.flatten() in the blank
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+For the given numpy array, how will you do row wise traversal?
+
+x = np.zeros((3,2), dtype=’int’)
+
+for i in ___:
+
+
+print(i)
+
+Marked Answer :
+Use x or x[ : ] in the blank
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+For the given numpy array, what is the determinant of the same?
+
+x = np.zeros((3,3), dtype=’int’)
+
+Marked Answer :
+0
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the output of the following code?
+
+A = np.array([14,25,16])
+
+B = np.array([17,21,31])
+
+np.hstack((A,B))
+
+Marked Answer :
+array([14, 25, 16, 17, 21, 31])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([14,25,16])
+
+B = np.array([17,21,31])
+
+np.row_stack((A,B))
+
+Marked Answer :
+array([[14, 25, 16],[17, 21, 31]])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([14,25,16])
+
+B = np.array([17,21,31])
+
+np.column_stack((A,B))
+
+Marked Answer :
+array([[14, 17],[25, 21],[16, 31]])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([14,25,16])
+
+B = np.array([17,21,31])
+
+np.stack((A,B), axis=0)
+
+Marked Answer :
+array([[14, 25, 16], [17, 21, 31]])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([14,25,16])
+
+B = np.array([17,21,31])
+
+np.vstack((A,B))
+
+Marked Answer :
+array([[14, 25, 16],[17, 21, 31]])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([[1,2],[3,4],[4,5],[5,6]])
+
+np.hsplit(A,2)
+
+Marked Answer :
+[array([[1],[3],[4],[5]]), array([[2],[4],[5],[6]])]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([[[1,2],[3,4],[4,5],[5,6]]])
+
+np.dsplit(A, 2)
+
+Marked Answer :
+[array([[[1],[3],[4],[5]]]), array([[[2],[4],[5],[6]]])]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([[1,2],[3,4],[4,5],[5,6]])
+
+np.vsplit(A, 2)
+
+Marked Answer :
+[array([[1, 2],[3, 4]]), array([[4, 5],[5, 6]])]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([[1,2],[3,4],[4,5],[5,6]])
+
+np.array_split(A, 2, axis=1)
+
+Marked Answer :
+[array([[1],[3],[4],[5]]), array([[2],[4],[5],[6]])]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+A = np.array([[1,2],[3,4],[4,5],[5,6]])
+
+np.split(A, 2, axis=0)
+
+Marked Answer :
+array([[1, 2],[3, 4]]), array([[4, 5],[5, 6]])
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the output of the following code?
+
+A = np.array([14,25,16])
+
+B = np.array([17,21,31])
+
+np.dstack((B,A))
+
+Marked Answer :
+array([[[17, 14],[21, 25],[31, 16]]])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+For the given numpy arrays, what will be the cross product?
+
+A = np.array([[4,2,4],[1,2,0],[3,9,0]])
+
+B = np.array([[2,2,1],[4,2,0],[2,5,3]])
+
+np.cross(A,B)
+
+Marked Answer :
+array([[-6, 4, 4],[ 0, 0, -6],[27, -9, -3]])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+For the given numpy arrays, what will be the output?
+
+A = np.array([[4,2,4],[1,2,0],[3,9,0]])
+
+A*2
+
+Marked Answer :
+array([[ 8, 4, 8],[ 2, 4, 0],[ 6, 18, 0]])
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+For the given numpy arrays, what will be the vector multiplication result?
+
+A = np.array([[4,2,4],[1,2,0],[3,9,0]])
+
+B = np.array([1,2,1])
+
+np.dot(A,B)
+
+Marked Answer :
+[12, 5, 21]
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+For the given numpy arrays, what will be the matrix multiplication result?
+
+A = np.array([[4,2,4],[1,2,0],[3,9,0]])
+
+B = np.array([[1,2,7],[4,2,2],[3,4,12]])
+
+np.dot(A, B)
+
+Marked Answer :
+array([24, 28, 80], [ 9, 6, 11],[39, 24, 39])
+
+TOTAL MARKS : 1MARKS OBTAINED  0
