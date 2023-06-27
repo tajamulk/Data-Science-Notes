@@ -1,0 +1,191 @@
+PYTHON OOPS QUIZ
+
+What among the following is not an object?
+
+Marked Answer :
+None of the above
+
+Correct Answer :
+None of the above
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+Class MyClass:
+
+x = 10
+
+obj = MyClass()
+
+print(x)
+
+Marked Answer :
+Name Error
+
+Correct Answer :
+Syntax Error
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the output of the following:
+
+class myClass:
+
+x = 10
+
+
+y = 20
+
+obj = myClass()
+
+res = obj.x * obj.y//3
+
+print(res)
+
+Marked Answer :
+66
+
+Correct Answer :
+66
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+class MyClass:
+
+x = 5
+obj = Myclass()
+
+print(obj.x)
+
+Marked Answer :
+5
+
+Correct Answer :
+Name Error
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the full form of OOPs?
+
+Marked Answer :
+Object Oriented Programming
+
+Correct Answer :
+Object Oriented Programming
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+class Names:
+
+def __init__(self, fname, lname):
+
+self.fname = fname
+
+
+self.lname = lname
+
+def display(self):
+
+
+self.fname = self.fname.upper()
+
+self.lname = self.lname.lower()
+
+
+print(self.fname, self.lname)
+
+obj = Names(‘python’, ‘PROgramming’)
+
+obj.display()
+
+Marked Answer :
+PYTHON programming
+
+Correct Answer :
+PYTHON programming
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following:
+
+class School:
+
+
+def __init__(self):
+
+self.school = “ABC”
+
+
+self.classes = “9th Grade”
+
+def display(self):
+
+
+print(self.school, self.classes)
+
+class Student(School):
+
+
+def __init__(self, fname, lname):
+
+self.fname = fname
+
+
+self.lname = lname
+
+School.__init__(self)
+
+def display(self):
+
+
+print(self.fname, self.lname, self.school, self.classes)
+
+obj = Student(“Mary”, “Jane”)
+
+obj.display()
+
+Marked Answer :
+Mary Jane ABC 9th Grade
+
+Correct Answer :
+Mary Jane ABC 9th Grade
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+from abc import ABC
+
+
+class CAR(ABC):
+
+
+def miles():
+
+pass
+
+class Sedan(CAR):
+
+
+def miles(self):
+
+print(“50 miles”)
+
+
+class Hatch(CAR):
+
+
+def miles(self):
+
+
+print(“100 Miles”)
+obj = Hatch()
+
+obj2 = Sedan()
+
+obj.miles()
+Marked Answer :
+100 miles
+
+Correct Answer :
+100 miles
+
+TOTAL MARKS : 1MARKS OBTAINED  1
