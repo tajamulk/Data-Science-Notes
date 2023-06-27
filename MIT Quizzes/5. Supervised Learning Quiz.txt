@@ -1,0 +1,122 @@
+SUPERVISED LEARNING QUIZ
+
+Which of the following algorithms comes under supervised learning?
+
+Marked Answer :
+All of the options are correct
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Random forest can be used for
+
+Marked Answer :
+Both Regression and Classification
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following is not a classification algorithm?
+
+Marked Answer :
+Linear Regression
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the maximum depth in a decision tree?
+
+Marked Answer :
+length of longest path from root to leaf
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+In a linear regression model, which technique can be used to find the coefficients?
+
+Marked Answer :
+Ordinary Least Squares
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What are the assumptions made in Linear Discriminant Analysis?
+
+Marked Answer :
+Data is normally distributed within each class
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What are the approaches to avoid overfitting in the decision tree ?
+
+Marked Answer :
+Both pre and post pruning
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Bootstrap Aggregation, also known as –
+
+Marked Answer :
+Bagging
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How can you improve random forest accuracy?
+
+Marked Answer :
+Algorithm Tuning
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Which of the following evaluation metrics can not be applied in case of logistic regression output to compare with target?
+
+Marked Answer :
+Mean-Squared-Error
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following option is used to evaluate the performance of classification algorithms?
+
+Marked Answer :
+All of the options are correct
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Machine learning algorithm which is used for labeled data?
+
+Marked Answer :
+Regression algorithms
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following statements is/are correct ?
+
+Marked Answer :
+LDA is used for dimensionality reduction
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Which are the methods used for hyperparameter tuning and cross-validation in Random Forest?
+
+Marked Answer :
+RandomizedSearchCV and GridSearchCV
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following option is a type of modelling error which results in the failure to predict future observations effectively or fit additional data in the existing model ?
+
+Marked Answer :
+Overfitting
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+In linear regression, data scientists try to ______ the least square errors of the model to identify the line of best fit.
+
+Marked Answer :
+minimize
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following is a disadvantage of decision trees?
+
+Marked Answer :
+Decision trees are prone to be overfit
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+In Random Forest, the Memory requirement for the storage process is ?
+
+Marked Answer :
+High Memory
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Random Forest has _________ as base learning models
+
+Marked Answer :
+multiple decision trees
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following is not an example of an ensemble method?
+
+Marked Answer :
+Decision tree
+
+TOTAL MARKS : 1MARKS OBTAINED  1
