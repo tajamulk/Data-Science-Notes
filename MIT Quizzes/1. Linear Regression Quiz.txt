@@ -1,0 +1,129 @@
+LINEAR REGRESSION QUIZ
+
+In Linear Regression ________ Method to identify the best fit line for the data?
+
+Marked Answer :
+Least Square Error
+
+Correct Answer :
+Least Square Error
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following are the ways to compute the coefficient of Linear Regression?
+
+Marked Answer :
+Gradient descent
+
+Correct Answer :
+Both of the above
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Compute the count of Null Values in the Mentioned Dataset?
+
+Marked Answer :
+None of the above
+
+Correct Answer :
+None of the above
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following statements is true?
+
+Marked Answer :
+None of the above
+
+Correct Answer :
+None of the above
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Compute the proportion of Perch in the Given dataset?
+
+Marked Answer :
+35.22%
+
+Correct Answer :
+35.22%
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+How many types of fish are included in the Dataset?
+
+Marked Answer :
+7
+
+Correct Answer :
+7
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+In a Linear Regression model, where  x =3.48  and y =5.58 (respective means of X and Y variable) and c= 1.75, represent the constant,choose the correct value for the coefficient of slope of the Line?
+
+Marked Answer :
+1.10
+
+Correct Answer :
+1.10
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Determine the species having average weight greater than other species present?
+
+Marked Answer :
+Pike
+
+Correct Answer :
+Pike
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Choose the correct statement :
+
+Statement I: Fish having maximum weight belongs to Species Bream and Whitefish
+
+Statement II: Average Height of Whitefish is greater than Bream
+
+Statement III: Roach species are wider than smelt.
+
+Marked Answer :
+Statement I and III are correct
+
+Correct Answer :
+Statement I and III are correct
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+__________ is the assumption of Linear Regression when statistical variance of all the value of Independent variable is same around regression line.
+
+Marked Answer :
+Homoscedasticity
+
+Correct Answer :
+Homoscedasticity
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+Which of the following statements is true ?
+
+Marked Answer :
+Outliers cause significant sensitivity to Linear regression.
+
+Correct Answer :
+Outliers cause significant sensitivity to Linear regression.
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+ _______ assumes the proportion of Variation explained by the predictor variable that are actually impacting the target variable?
+
+Marked Answer :
+R-Squared
+
+Correct Answer :
+Adjusted R-Squared
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+Choose the correct statement from the following for Lasso Model ;
+
+Statement I: Model that estimates sparse coefficients with l1 regularization 
+
+Statement II:  Imposing a penalty on the size of the coefficients with l2 regularization
+
+Marked Answer :
+Both Statement I and II
+
+Correct Answer :
+Statement I
+
+TOTAL MARKS : 1MARKS OBTAINED  0
