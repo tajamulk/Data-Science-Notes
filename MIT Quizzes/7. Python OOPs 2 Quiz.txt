@@ -1,0 +1,859 @@
+PYTHON OOPS 2 QUIZ
+
+What is the output of the following code?
+
+class Myclass:
+
+def __init__(self):
+
+self.string = “Twenty”
+
+self.number = 20
+
+obj = Myclass()
+
+print(obj.age, obj.name)
+
+Marked Answer :
+NameError
+
+Correct Answer :
+20 Twenty
+
+TOTAL MARKS : 1MARKS OBTAINED  0
+What is the output of the following code?
+
+class Myclass:
+
+def __init__(self, name, age):
+
+self.name = name
+
+self.age = age
+
+def view(self):
+
+print(self.name)
+
+obj = Myclass(“Python”, 1990)
+
+obj.view()
+
+Marked Answer :
+Python
+
+Correct Answer :
+Python
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Myclass:
+
+def __init__(self):
+
+self.string = “Madam”
+
+self.number = 20
+
+def view(self):
+
+
+print(self.string[::-1], self.number//6)
+
+
+obj = Myclass()
+
+obj.view()
+
+Marked Answer :
+madaM 3
+
+Correct Answer :
+madaM 3
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+class myClass:
+
+def __init__(self, name, age):
+
+self.name = name
+
+self.age = age
+
+def view(self):
+
+print([self.name, self.age])
+
+class myclass:
+
+
+def __init__(self, name, age):
+
+self.name = name
+
+self.age = age
+
+def view(self):
+
+
+print([self.name, self.age])
+
+obj1 = myClass(“Rajesh”, 29)
+
+obj2 = myclass(“Ramesh”, 28)
+
+print([obj1.name, obj2.age])
+
+Marked Answer :
+[Rajesh, 28]
+
+Correct Answer :
+[Rajesh, 28]
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Name:
+
+def view(self):
+
+self.name = “Rajesh”
+
+class Age:
+
+
+def view(self):
+
+self.age = 29
+
+class Profession:
+
+
+def view(self):
+
+self.profession = “Teacher”
+
+obj1 = Name()
+
+obj2 = Age()
+
+obj3 = Profession()
+
+print(obj1.view(), obj2.view(), obj1.view())
+
+Marked Answer :
+None None None
+
+Correct Answer :
+None None None
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code:
+
+class Base:
+
+def __init__(self):
+
+self.name = “Bruce”
+
+self.age = 29
+
+class Derived(Base):
+
+
+def __init__(self):
+
+super().__init__()
+
+self.profession = “Superhero”
+
+def view(self):
+
+
+print(self.name, self.age, self.profession)
+
+obj = Derived()
+
+obj.view()
+
+Marked Answer :
+Bruce 29 Superhero
+
+Correct Answer :
+Bruce 29 Superhero
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Base1:
+
+def __init__(self):
+
+self.name = “Ramesh”
+
+class Base2:
+
+def __init__(self):
+
+self.age = 29
+
+class Derived(Base1, Base2):
+
+
+def __init__(self):
+
+self.profession = “Teacher”
+
+super().__init__()
+
+def view(self):
+
+
+print(self.name, self.age,self.profession)
+
+obj = Derived()
+
+obj.view()
+
+Marked Answer :
+AttributeError
+
+Correct Answer :
+AttributeError
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Base:
+
+def __init__(self):
+
+self.name = “Rajesh”
+
+class Derived(Base):
+
+
+def __init__(self):
+
+self.age = 29
+
+
+super().__init__()
+
+class Child(Derived):
+
+
+def __init__(self):
+
+self.profession = “Teacher”
+
+def view(self):
+
+
+Derived.__init__(self)
+
+return self.name
+
+obj = Child()
+
+obj.view()
+
+Marked Answer :
+‘Rajesh’
+
+Correct Answer :
+‘Rajesh’
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Base:
+
+def __init__(self):
+
+self.name = “Rajesh”
+
+class Derived1(Base):
+
+
+def __init__(self):
+
+self.age = 29
+
+super().__init__()
+
+class Derived2(Base):
+
+
+def __init__(self):
+
+self.profession = “Teacher”
+
+super().__init__()
+
+class Child(Derived1, Derived2):
+
+
+def __init__(self):
+
+pass
+
+def view(self):
+
+
+super().__init__()
+
+Derived2.__init__(self)
+
+self.interest = “Football”
+
+return self.name, self.interest, self.age
+
+obj = Child()
+
+obj.view()
+
+Marked Answer :
+(‘Rajesh’, ‘Football’, 29)
+
+Correct Answer :
+(‘Rajesh’, ‘Football’, 29)
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Base:
+
+def __init__(self):
+
+self.name = “Rajesh”
+
+class Derived1(Base):
+
+
+def __init__(self, age):
+
+self.age = age
+
+super().__init__()
+
+class Derived2(Base):
+
+def __init__(self, profession):
+
+self.profession = profession
+
+super().__init__()
+
+class Derived3(Base):
+
+
+def __init__(self, interest):
+
+self.interest = interest
+
+
+super().__init__()
+
+obj = Base()
+
+obj1 = Derived1(29)
+
+obj2 = Derived2(“Teacher”)
+
+obj3 = Derived3(“Football”)
+
+Marked Answer :
+No Output
+
+Correct Answer :
+No Output
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+from abc import ABC, abstractmethod
+
+class School(ABC):
+
+
+def __init__(self):
+
+self.name = “Rajesh”
+
+
+self.age = 29
+
+obj = School()
+
+print(obj.name)
+
+Marked Answer :
+‘Rajesh’
+
+Correct Answer :
+‘Rajesh’
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+from abc import ABC, abstractmethod
+
+class School(ABC):
+
+
+@abstractmethod
+
+
+def __init__(self):
+
+
+self.name = “Rajesh”
+
+
+self.age = 29
+
+class Section(School):
+
+
+def __init__(self):
+
+pass
+
+def view(self):
+
+
+School.__init__(self)
+
+print(self.age)
+
+obj = Section()
+
+obj.name
+
+Marked Answer :
+AttributeError
+
+Correct Answer :
+AttributeError
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+from abc import ABC, abstractmethod
+
+class School(ABC):
+
+
+@abstractmethod
+
+def __init__(self):
+
+self.name = “Rajesh”
+
+self.age = 29
+
+class Section(School):
+
+
+def __init__(self):
+
+pass
+
+def view(self):
+
+School.__init__(self)
+
+print(self.name)
+
+obj = Section()
+
+obj.view()
+
+Marked Answer :
+Rajesh
+
+Correct Answer :
+Rajesh
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+from abc import ABC, abstractmethod
+
+class School(ABC):
+
+
+@abstractmethod
+
+def __init__(self):
+
+self.name = ‘Rajesh’
+
+self.age = 29
+
+def deets(self):
+
+
+self.section = ‘A’
+
+self.standard = 9
+
+class Section(School):
+
+def __init__(self):
+
+pass
+
+def view(self):
+
+
+School.deets(self)
+
+print(self.section)
+
+obj = Section()
+
+obj.view()
+
+Marked Answer :
+A
+
+Correct Answer :
+A
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+from abc import ABC, abstractmethod
+
+class School(ABC):
+
+@abstractmethod
+
+def __init__(self):
+
+
+self.name = ‘Rajesh’
+
+self.age = 29
+
+def deets(self):
+
+
+self.section = ‘A’
+
+self.standard = 9
+
+class Section(School):
+
+def __init__(self):
+
+super().__init__()
+
+def view(self):
+
+
+print(self.name)
+
+obj = Section()
+
+obj.view()
+
+Marked Answer :
+Rajesh
+
+Correct Answer :
+Rajesh
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+from multipledispatch import dispatch
+
+class Poly:
+
+
+@dispatch(int, int)
+
+def method(self, a, b):
+
+return (a**b)
+
+@dispatch(int, int, int)
+
+
+def method(self, a, b,c):
+
+return (a*b*c)
+
+obj = Poly()
+
+obj.method(3,2)
+
+Marked Answer :
+9
+
+Correct Answer :
+9
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Poly:
+
+def method(self, a, b):
+
+return (a**b)
+
+
+def method(self, a, b,c):
+
+return (a*b*c)
+
+obj = Poly()
+
+obj.method(3,2)
+
+Marked Answer :
+TypeError
+
+Correct Answer :
+TypeError
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Poly:
+
+def __init__(self):
+
+self.name = ‘Rajesh’
+
+self.age = 29
+
+def view(self):
+
+return self.name, self.age
+
+class Child(Poly):
+
+
+def __init__(self):
+
+Poly.__init__(self)
+
+def view(self):
+
+self.prof = “Student”
+
+super().view()
+
+return self.prof
+
+obj = Child()
+
+obj.view()
+
+Marked Answer :
+Student
+
+Correct Answer :
+Student
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Poly:
+
+def __init__(self):
+
+self.name = ‘Rajesh’
+
+
+self.age = 29
+
+def view(self):
+
+print(self.name)
+
+class Child(Poly):
+
+
+def __init__(self):
+
+Poly.__init__(self)
+
+def view(self):
+
+self.prof = “Student”
+
+
+super().view()
+
+return None
+
+obj = Child()
+
+obj.view()
+
+Marked Answer :
+Rajesh
+
+Correct Answer :
+Rajesh
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Poly:
+
+def __init__(self):
+
+self.name = ‘Rajesh’
+
+self.age = 29
+
+def view(self):
+
+return None
+
+class Child(Poly):
+
+
+def __init__(self):
+
+Poly.__init__(self)
+
+def view(self):
+
+
+self.prof = “Student”
+
+super().view()
+
+return None
+
+obj = Poly()
+
+obj.view()
+
+Marked Answer :
+No Output
+
+Correct Answer :
+No Output
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Parent:
+
+def __init__(self):
+
+self._name = “Rajesh”
+
+self.__age = 29
+
+class Child(Parent):
+
+
+def __init__(self):
+
+Parent.__init__(self)
+
+
+self._name = “Ramesh”
+
+def view(self):
+
+
+return self._name
+
+obj = Child()
+
+obj.view()
+
+Marked Answer :
+Ramesh
+
+Correct Answer :
+Ramesh
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Parent:
+
+
+def __init__(self):
+
+self._name = “Rajesh”
+
+self.__age = 29
+
+class Child(Parent):
+
+
+def __init__(self):
+
+Parent.__init__(self)
+
+
+self._name = “Ramesh”
+
+self.__age = 28
+
+def view(self):
+
+
+return self.__age
+
+obj = Child()
+
+obj.view()
+
+Marked Answer :
+28
+
+Correct Answer :
+28
+
+TOTAL MARKS : 1MARKS OBTAINED  1
+What is the output of the following code?
+
+class Parent:
+
+
+def __init__(self):
+
+self._name = “Rajesh”
+
+self.__age = 29
+
+class Child(Parent):
+
+
+def __init__(self):
+
+Parent.__init__(self)
+
+
+self._name = “Ramesh”
+
+def view(self):
+
+return self.__age
+
+obj = Child()
+
+obj.view()
+
+Marked Answer :
+AttributeError
+
+Correct Answer :
+AttributeError
+
+TOTAL MARKS : 1MARKS OBTAINED  1
